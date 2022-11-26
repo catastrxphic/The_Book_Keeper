@@ -1,4 +1,5 @@
-# TopBooks
+# The Book Keeper 
+
 This website will be a space where people receive book recommendations every month. 
 For these suggestions to be accurate, they will answer a questionnaire periodically based on their personalities and interests.  Furthermore, when they first interact with the site, they will complete a form about books they have read and their thoughts.
 
