@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 90%;
+    width: 25%;
+    margin: 15% 35%;
+    color: antiquewhite;
+}
