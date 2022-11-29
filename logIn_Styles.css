@@ -1,10 +1,49 @@
-.container{
-    display: flex;
-    flex-direction: column;
+:root{
+        #393939
+        #c47c63
+        #645a41
+        #898055
+        #bfbdb0
+}
+
+body{
+    background-color: #312229;
+    font-family:'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+}
+
+form{
+    border: 3px solid #070707;
     align-items: center;
-    background-color: white;
-    height: 90%;
-    width: 25%;
-    margin: 15% 35%;
-    color: antiquewhite;
+}
+.container{
+    padding: 25px;
+    background-color: aqua;
+}
+
+button{
+    color: #070707;
+    background-color: #d5c5ae;
+    border-radius: 4%;
+    padding:  5px;
+    margin: 10px 0px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover{
+
+    background-color:#54101d;
+    color: #d5c5ae;
+    box-shadow: 2px 2px #d5c5ae;
+}
+
+.email, .password {
+        width : 100%;
+        margin: 8px 0;
+        display:inline-block;
+        border: 2px solid green; 
+        box-sizing: border-box; 
 }
