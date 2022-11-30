@@ -66,8 +66,8 @@ button:hover{
 
 
 a{
-    /* text-align: right; */
     text-decoration: none;
     margin-left: 76%;
     justify-content: flex-end;
+    color: #070707;
 }
