@@ -13,7 +13,7 @@
 }
 
 body{
-    background-color: var(--beige);
+    background-color: var(--dusteRose);
     font-family:'Times New Roman', Times, serif;
 }
 h1{
@@ -22,7 +22,7 @@ h1{
 }
 
 form{
-    color: var(--beige);
+    color: black;
     font-weight: bolder;
     border: 3px solid #070707;
     align-items: center;
@@ -34,11 +34,12 @@ form{
 }
 .container{
     padding: 25px;
-    background-color: var(--lightBr);
+    background-color: var(--perriwinkle);
     
 }
 
 button{
+    font-size: larger;
     color: var(--blackish);
     background-color: var(--whiteish);
     border-radius: 4%;
@@ -50,9 +51,10 @@ button{
 }
 
 button:hover{
+    font-weight: bold;
     color: var(--blackish) ;
+    background-color: var(--dusteRose);
     font-size: larger;
-    opacity: 50%;
 }
 
 .email, .password {
@@ -60,14 +62,6 @@ button:hover{
         width : 100%;
         margin: 8px 0;
         display:inline-block;
-        border: 2px solid var(--lightBr); 
+        border: 2px solid var(--dusteRose); 
         box-sizing: border-box; 
-}
-
-i{
-    position: absolute;
-    z-index: 0;
-}
-i:hover{
-    cursor: pointer;
 }
