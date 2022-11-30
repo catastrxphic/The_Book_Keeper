@@ -7,13 +7,11 @@
         --mutedGreen : #b6c199;   
         --beige:#c8b7a6;
         --dusteRose: #c29591;
-        --whiteish:#bfbdb0;
-       
-
+        --whiteish:#bfbdb0;   
 }
 
 body{
-    background-color: var(--beige);
+    background-color: var(--mutedGreen);
     font-family:'Times New Roman', Times, serif;
 }
 h1{
@@ -22,7 +20,7 @@ h1{
 }
 
 form{
-    color: var(--beige);
+    color: black;
     font-weight: bolder;
     border: 3px solid #070707;
     align-items: center;
@@ -34,11 +32,12 @@ form{
 }
 .container{
     padding: 25px;
-    background-color: var(--lightBr);
+    background-color: var(--perriwinkle);
     
 }
 
 button{
+    font-size: larger;
     color: var(--blackish);
     background-color: var(--whiteish);
     border-radius: 4%;
@@ -50,9 +49,10 @@ button{
 }
 
 button:hover{
+    font-weight: bold;
     color: var(--blackish) ;
+    background-color: var(--mutedGreen);
     font-size: larger;
-    opacity: 50%;
 }
 
 .email, .password {
@@ -60,6 +60,6 @@ button:hover{
         width : 100%;
         margin: 8px 0;
         display:inline-block;
-        border: 2px solid var(--lightBr); 
+        border: 2px solid var(--mutedGreen); 
         box-sizing: border-box; 
 }
