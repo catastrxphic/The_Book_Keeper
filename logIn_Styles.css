@@ -63,3 +63,11 @@ button:hover{
         border: 2px solid var(--lightBr); 
         box-sizing: border-box; 
 }
+
+i{
+    position: absolute;
+    z-index: 0;
+}
+i:hover{
+    cursor: pointer;
+}
