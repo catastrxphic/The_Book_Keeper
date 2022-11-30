@@ -50,7 +50,8 @@ button{
 }
 
 button:hover{
-    color: var(--brown) ;
+    color: var(--blackish) ;
+    font-size: larger;
     opacity: 50%;
 }
 
