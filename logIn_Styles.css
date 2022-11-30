@@ -1,13 +1,13 @@
 :root{
-        #393939
-        #c47c63
-        #645a41
-        #898055
-        #bfbdb0
+        --blackish :#393939;
+        --beige:#c47c63;
+        --brown:#645a41;
+        --lightBr:#898055;
+        --whiteish:#bfbdb0;
 }
 
 body{
-    background-color: #312229;
+    background-color: var(--brown);
     font-family:'Times New Roman', Times, serif;
 }
 h1{
@@ -20,23 +20,24 @@ form{
 }
 .container{
     padding: 25px;
-    background-color: aqua;
+    background-color: var(--lightBr);
 }
 
 button{
-    color: #070707;
-    background-color: #d5c5ae;
+    color: var(--blackish);
+    background-color: var(--whiteish);
     border-radius: 4%;
     padding:  5px;
     margin: 10px 0px;
     cursor: pointer;
     width: 100%;
+    
 }
 
 button:hover{
 
-    background-color:#54101d;
-    color: #d5c5ae;
+    background-color:var(--brown);
+    color: ;
     box-shadow: 2px 2px #d5c5ae;
 }
 
