@@ -1,26 +1,41 @@
 :root{
         --blackish :#393939;
-        --beige:#c47c63;
+        --marroonBrown : #703f37; 
         --brown:#645a41;
         --lightBr:#898055;
+        --perriwinkle : #7d94b5;
+        --mutedGreen : #b6c199;   
+        --beige:#c8b7a6;
+        --dusteRose: #c29591;
         --whiteish:#bfbdb0;
+       
+
 }
 
 body{
-    background-color: var(--brown);
+    background-color: var(--beige);
     font-family:'Times New Roman', Times, serif;
 }
 h1{
     text-align: center;
+    margin-top: 10%;
 }
 
 form{
+    color: var(--beige);
+    font-weight: bolder;
     border: 3px solid #070707;
     align-items: center;
+    height: auto;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
 }
 .container{
     padding: 25px;
     background-color: var(--lightBr);
+    
 }
 
 button{
@@ -35,16 +50,15 @@ button{
 }
 
 button:hover{
-
-    background-color:var(--brown);
-    color: ;
-    box-shadow: 2px 2px #d5c5ae;
+    color: var(--brown) ;
+    opacity: 50%;
 }
 
 .email, .password {
+        width: 150%;
         width : 100%;
         margin: 8px 0;
         display:inline-block;
-        border: 2px solid green; 
+        border: 2px solid var(--lightBr); 
         box-sizing: border-box; 
 }
