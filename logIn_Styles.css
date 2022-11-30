@@ -63,3 +63,11 @@ button:hover{
         border: 2px solid var(--mutedGreen); 
         box-sizing: border-box; 
 }
+
+
+a{
+    /* text-align: right; */
+    text-decoration: none;
+    margin-left: 76%;
+    justify-content: flex-end;
+}
