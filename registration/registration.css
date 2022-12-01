@@ -1,0 +1,76 @@
+:root{
+    --blackish :#393939;
+    --marroonBrown : #703f37; 
+    --brown:#645a41;
+    --lightBr:#898055;
+    --perriwinkle : #7d94b5;
+    --mutedGreen : #b6c199;   
+    --beige:#c8b7a6;
+    --dusteRose: #c29591;
+    --whiteish:#bfbdb0;   
+}
+
+body{
+    background-color: var(--mutedGreen);
+    font-family:'Times New Roman', Times, serif;
+}
+
+button{
+    font-size: larger;
+    color: var(--blackish);
+    background-color: var(--whiteish);
+    border-radius: 4%;
+    padding:  5px;
+    margin: 10px 0px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover{
+    font-weight: bold;
+    color: var(--blackish) ;
+    background-color: var(--mutedGreen);
+    font-size: larger;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10%;
+}
+
+form {
+    color: black;
+    font-weight: bolder;
+    border: 3px solid #070707;
+    align-items: center;
+    height: auto;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+}
+
+.container{
+    padding: 25px;
+    background-color: var(--perriwinkle);   
+}
+
+label{
+    width: 100%;
+    margin: 3px 0;
+    display: inline-block;
+    box-sizing: border-box; 
+}
+
+.email, .password, .user, .confpassword{
+    width: 100%;
+    font-weight: bold;
+    display: inline-block;
+    border: 2px solid var(--mutedGreen); 
+    box-sizing: border-box; 
+}
+
+.reader{
+    width: 100%;
+    font-weight: lighter;
+}
