@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="registration.css" rel="stylesheet">
+    <title>Profile Creation</title>
+</head>
+
+<body>
+    <h1> Create Your Account! </h1>
+    <form>
+        <div class="container">
+            <label> Username
+                <input class="user" type="text" name="user" placeholder="PercyDarcy" required>
+            </label>
+            
+            <label> Email
+                <input class="email" type="email" placeholder="percy123@gmail.com" required>
+            </label>
+
+            <label> Password
+                <input class="password" type="password" placeholder="Percy23678" size="10" maxlength="15" required>
+            </label>
+
+            <label> Confirm Password
+                <input class="confpassword" type="password" placeholder="Percy23678" size="10" maxlength="15" required>
+            </label>
+            
+            <hr>
+            <label> Are you a consistent reader?
+                <br> <input type="radio"  name="reader" > <span class="reader">  Yes, cannot stop reading!</span>
+                <br> <input type="radio"  name="reader" > <span class="reader">  No, just started </span>
+            </label>
+            
+            <hr>
+            <label> 
+                <input type="checkbox" name="agreement" > Do you agree with the <span>terms and conditions</span> ?
+            </label>
+            <button type="submit"> Create Account </button>
+         </div>
+
+    </form>
+    
+</body>
+
+</html>
