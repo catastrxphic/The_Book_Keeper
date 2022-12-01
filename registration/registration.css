@@ -57,13 +57,13 @@ form {
 
 label{
     width: 100%;
-    margin: 3px 0;
     display: inline-block;
     box-sizing: border-box; 
 }
 
 .email, .password, .user, .confpassword{
     width: 100%;
+    margin-bottom: 2%;
     font-weight: bold;
     display: inline-block;
     border: 2px solid var(--mutedGreen); 
