@@ -62,12 +62,14 @@ button:hover{
         display:inline-block;
         border: 2px solid var(--mutedGreen); 
         box-sizing: border-box; 
+        font-weight: lighter;
+        font-size: small;
 }
 
 
 a{
     text-decoration: none;
-    margin-left: 76%;
+    margin-left: 74%;
     justify-content: flex-end;
     color: #070707;
 }
