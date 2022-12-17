@@ -78,3 +78,8 @@ label{
  .genre{
     color: aqua;
 }
+
+span.details{
+    font-weight: lighter;
+    color: white;
+}

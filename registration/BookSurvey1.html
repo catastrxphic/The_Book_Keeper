@@ -20,44 +20,63 @@
                 <input class="daysReadingW" type="number" placeholder="6" required>
             </label>
 
-            <label> What are you favourite genres?
+            <label for="genres"> What are you favourite genres? </label>
                 <select name = "genres" id="bGenres"> 
-                    <option value ="genre"  > Horror   </option>
-                    <option value ="genre"  > Romance  </option>
-                    <option value ="genre"  > Fantasy  </option>
-                    <option value ="genre" > Science-Fiction </option>
-                    <option value ="genre" > Politics  </option>
-                    <option value ="genre" >  Medicine </option>
-                    <option value ="genre" >  Techonologies </option>
-                    <option value ="genre" >  Self-Growth </option>
-                    <option value ="genre" >  Mathematics  </option>
-                    <option value ="genre" >  Clasics </option>
-                    <option value ="genre" > Suspense </option>
-                    <option value ="genre" >  Manga </option>
-                    <option value ="genre" >  Economy </option>
-                    <option value ="genre" > Folklore </option>
-                    <option value ="genre" > Phylosophy  </option>
+                    <option value="horror"> Horror   </option>
+                    <option value="romance"> Romance  </option>
+                    <option value="fantasy"> Fantasy  </option>
+                    <option value="sci-fi"> Science-Fiction </option>
+                    <option value="politics"> Politics  </option>
+                    <option value="medicine">  Medicine </option>
+                    <option value="tech">  Techonologies </option>
+                    <option value="self-growth">  Self-Growth </option>
+                    <option value="math">  Mathematics  </option>
+                    <option value="clas">  Clasics </option>
+                    <option value="suspense"> Suspense </option>
+                    <option value="manga">  Manga </option>
+                    <option value="economy">  Economy </option>
+                    <option value="folklore"> Folklore </option>
+                    <option value="phylosophy"> Phylosophy  </option>
                 </select>
-        </label>
+        
 
     
-            <label> Which genres would you like to try?
-                <input class="trying" type="text" placeholder="Romance" required>
-            </label>
+            <label> Which genre interest you this month?</label>
+                <select name = "genresSuggestion" id="sGenres"> 
+                    <option value="horror"> Horror   </option>
+                    <option value="romance"> Romance  </option>
+                    <option value="fantasy"> Fantasy  </option>
+                    <option value="sci-fi"> Science-Fiction </option>
+                    <option value="politics"> Politics  </option>
+                    <option value="medicine">  Medicine </option>
+                    <option value="tech">  Techonologies </option>
+                    <option value="self-growth">  Self-Growth </option>
+                    <option value="math">  Mathematics  </option>
+                    <option value="clas">  Clasics </option>
+                    <option value="suspense"> Suspense </option>
+                    <option value="manga">  Manga </option>
+                    <option value="economy">  Economy </option>
+                    <option value="folklore"> Folklore </option>
+                    <option value="phylosophy"> Phylosophy  </option>
+                </select>
             
             <hr>
-            <label> Why is your main reason to read?
-                <br> <input type="number"  name= "reason" >  To aquire knowledge
-                <br> <input type="number"  name= "reason" >  To scape reality
-                <br> <input type="number"  name= "reason" >  To become a better version of myself
-                <br> <input type="number"  name= "reason" >  For fun 
-                <br> <input type="number"  name= "reason" >  As a healthy habit
+            <label> What is your main reason to read? <span class="details">(Rank from 1 - 5)</span>
+                <br> <input type="number" min="1" max="5" name= "reason" >  To aquire knowledge
+                <br> <input type="number" min="1" max="5" name= "reason" >  To scape reality
+                <br> <input type="number" min="1" max="5" name= "reason" >  To become a better version of myself
+                <br> <input type="number" min="1" max="5" name= "reason" >  For fun 
+                <br> <input type="number" min="1" max="5" name= "reason" >  As a healthy habit
 
             </label>
             
             <hr>
-            <label> 
-                <input type="checkbox" name="agreement" > Do you agree with the <span>terms and conditions</span> ?
+            <!-- look how to create ONE checked box on HTML, or learn JS >.< -->
+            <label> Do you struggle finding new books to read?
+                <br> <input type="checkbox" name="struggle" > Yes, there are so many books I want to read!
+                <br> <input type="checkbox" name="struggle" > Yes, not many books interest me :(
+                <br> <input type="checkbox" name="struggle" > No, I always/usually know what I want to read next!
+
             </label>
             <button type="submit"> Create Account </button>
             <button type="submit"> Continue to book survey </button>
