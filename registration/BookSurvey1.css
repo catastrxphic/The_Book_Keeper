@@ -5,12 +5,15 @@
     --lightBr:#898055;
     --perriwinkle : #7d94b5;
     --mutedGreen : #b6c199;   
-    --beige:#e0d0bf;
+    --beige:#c8b7a6;
     --dusteRose: #c29591;
     --whiteish:#bfbdb0;   
 }
 
 body{
+    display: flex;
+    align-content: center;
+    justify-content: center;
     background-color: var(--mutedGreen);
     font-family:'Times New Roman', Times, serif;
 }
@@ -42,9 +45,7 @@ form {
     color: black;
     font-weight: bolder;
     border: 3px solid #070707;
-    align-items: center;
-    height: auto;
-    width: 50%;
+    width: 100%;
     align-items: center;
     justify-content: center;
     margin-left: 25%;
@@ -62,7 +63,7 @@ label{
     box-sizing: border-box; 
 }
 
-.email, .password, .user, .confpassword{
+.daysReading, .daysReadingW, .genre, .trying, .reason{
     width: 100%;
     font-weight: bold;
     display: inline-block;
@@ -73,4 +74,7 @@ label{
 .reader{
     width: 100%;
     font-weight: lighter;
+}
+ .genre{
+    color: aqua;
 }

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="BookSurvey1.css" rel="stylesheet">
+    <title>survey step 1</title>
+</head>
+
+<body>
+    <h1> Answer this short questions for a better understanding of your reading habits and style </h1>
+    <form>
+        <div class="container">
+            <label> How many days per week do you read?
+                <input class="daysReading" type="number" name="daysReading" placeholder="2" required>
+            </label>
+            
+            <label> How many days per week would you like to read?
+                <input class="daysReadingW" type="number" placeholder="6" required>
+            </label>
+
+            <label> What are you favourite genres?
+                <select name = "genres" id="bGenres"> 
+                    <option value ="genre"  > Horror   </option>
+                    <option value ="genre"  > Romance  </option>
+                    <option value ="genre"  > Fantasy  </option>
+                    <option value ="genre" > Science-Fiction </option>
+                    <option value ="genre" > Politics  </option>
+                    <option value ="genre" >  Medicine </option>
+                    <option value ="genre" >  Techonologies </option>
+                    <option value ="genre" >  Self-Growth </option>
+                    <option value ="genre" >  Mathematics  </option>
+                    <option value ="genre" >  Clasics </option>
+                    <option value ="genre" > Suspense </option>
+                    <option value ="genre" >  Manga </option>
+                    <option value ="genre" >  Economy </option>
+                    <option value ="genre" > Folklore </option>
+                    <option value ="genre" > Phylosophy  </option>
+                </select>
+        </label>
+
+    
+            <label> Which genres would you like to try?
+                <input class="trying" type="text" placeholder="Romance" required>
+            </label>
+            
+            <hr>
+            <label> Why is your main reason to read?
+                <br> <input type="number"  name= "reason" >  To aquire knowledge
+                <br> <input type="number"  name= "reason" >  To scape reality
+                <br> <input type="number"  name= "reason" >  To become a better version of myself
+                <br> <input type="number"  name= "reason" >  For fun 
+                <br> <input type="number"  name= "reason" >  As a healthy habit
+
+            </label>
+            
+            <hr>
+            <label> 
+                <input type="checkbox" name="agreement" > Do you agree with the <span>terms and conditions</span> ?
+            </label>
+            <button type="submit"> Create Account </button>
+            <button type="submit"> Continue to book survey </button>
+
+         </div>
+
+    </form>
+    
+</body>
+
+</html>
